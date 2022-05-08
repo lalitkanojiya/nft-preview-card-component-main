@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #0d192b;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nft-card-container {
+  width: 300px;
+  background-color: #14253d;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.nft-card-container img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.nft-card-container .nft-card-heading {
+  display: block;
+  color: white;
+  margin: 20px 0px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+}
+
+.nft-card-container .nft-card-para {
+  color: #8bacda;
+  display: block;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.nft-card-container .price-time-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nft-card-container .price-time-container .price-container {
+  color: #00fff7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+}
+
+.nft-card-container .price-time-container .price-container img {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.nft-card-container .price-time-container .time-container {
+  color: #8bacda;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+}
+
+.nft-card-container .price-time-container .time-container img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.nft-card-container hr {
+  border: #2f415b 1px solid;
+}
+
+.nft-card-container .creator-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.nft-card-container .creator-container img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.nft-card-container .creator-container .blue-name {
+  color: #8bacda;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=main.css.map */
